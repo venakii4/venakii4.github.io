@@ -1,0 +1,185 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&amp;display=swap" rel="stylesheet"> 
+  <title>tribute para kay tiglao</title> 
+  <style>
+        body {
+            background-color: #fefbba;
+            text-align: center;
+            color: #4cb4f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0; /* Remove default margin */
+            font-family: 'Oswald', sans-serif; /* Specify a fallback font */
+        }
+
+        .alert-box {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 2px solid #b0daec;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            text-align: center;
+            border-radius: 10px;
+            display: none;
+        }
+
+        .alert-box p {
+            color: #4cb4f0;
+            t-size: 30px;
+        }
+
+        .alert-box button {
+            background-color: #f6d4e3;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #finalContent {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #finalContent img,
+        .additional-content img {
+            width: 320px; 
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #4cb4f0;
+        }
+
+        .additional-content img:last-child {
+            border: none;
+        }
+
+        #finalContent p,
+        .additional-content p {
+            font-size: 25px;
+            color: #f6d4e3;
+            margin-top: 5px;
+        }
+
+        .additional-content {
+            margin-top: 20px;
+            display: none; 
+        }
+
+        
+       .additional-content img.gif-image {
+            border: none; 
+        }
+    </style> 
+  <script>
+        let messages = ["hi bes", "virus 'to", "huey", "eme", "dejok virus talaga 'to", "puro epic pics mo e", "tribute ko na sa'yo 'to"];
+        let currentMessageIndex = 0;
+
+        function showCustomAlert() {
+            const alertBox = document.getElementById("customAlert");
+            alertBox.querySelector("p").textContent = messages[currentMessageIndex];
+            alertBox.style.display = "block";
+        }
+
+        function closeAlert() {
+            currentMessageIndex++;
+            if (currentMessageIndex < messages.length) {
+                showCustomAlert();
+            } else {
+                document.getElementById("customAlert").style.display = "none";
+                showFinalContent();
+            }
+        }
+
+        function showFinalContent() {
+            document.getElementById("finalContent").style.display = "block";
+            document.getElementById("additionalContent").style.display = "block";
+            document.body.style.backgroundColor = "white";
+        }
+
+        function showTanginamoAlert() {
+            alert("thanks, ikr\n\nbagong buhay ka na pls");
+        }
+
+        window.onload = function() {
+            showCustomAlert();
+        };
+    </script> 
+ </head> 
+ <body> 
+  <div id="customAlert" class="alert-box"> 
+   <p>halauy!</p> <button onclick="closeAlert()">OK</button> 
+  </div> 
+  <div id="finalContent" style="display: none;"> 
+   <img src="https://i.imgur.com/Dt368Lr.jpeg"> 
+   <p>hindi 'to epic pero lagay ko pa rin</p> 
+  </div> 
+  <div id="additionalContent" class="additional-content"> 
+   <img src="https://i.imgur.com/n61tJup.jpeg"> 
+   <p>sama talaga ng ugali kahit kailan</p> 
+   <img src="https://i.imgur.com/KD856Nm.jpeg"> 
+   <p>ganyan talaga pag tanga sa pag-ibig</p> 
+   <img src="https://i.imgur.com/G5q6ZDP.jpeg"> 
+   <p>may pinopormahan</p> 
+   <img src="https://i.imgur.com/N0MPdvR.jpeg"> 
+   <p>pagod</p> 
+   <img src="https://i.imgur.com/dc7F89e.jpeg"> 
+   <p>gan'yan talaga ang buhay</p> 
+   <img src="https://i.imgur.com/zjGAHAB.jpeg"> 
+   <p>kyot mo rito be</p> 
+   <img src="https://i.imgur.com/eOEuKHV.jpeg"> 
+   <p>wow</p> 
+   <img src="https://i.imgur.com/XVwKOHR.jpeg"> 
+   <p>eyyy</p> 
+   <img src="https://i.imgur.com/01gEtpy.jpeg"> 
+   <p>kinikilig ka pa sa crush mo</p> 
+   <img src="https://i.imgur.com/XRaQDmi.jpeg"> 
+   <p>epekto ng selos</p> 
+   <img src="https://i.imgur.com/y9MJUoE.jpeg"> 
+   <p>sige be</p> 
+   <img src="https://i.imgur.com/FBgE8vt.jpeg"> 
+   <p>sino ka r'yan</p> 
+   <img src="https://i.imgur.com/EZsUIUa.jpeg"> 
+   <p>tamang kain lang ice cream habang nagjajalosi</p> 
+   <img src="https://i.imgur.com/icuCZ0N.jpeg"> 
+   <p>iniyakan ni pia count:999999</p> 
+   <img src="https://i.imgur.com/gU5qrrt.jpeg"> 
+   <p>sleep well</p> 
+   <img src="https://i.imgur.com/VQ4aLPy.jpeg"> 
+   <p>HAHAHWUAHHAHAHAHAH</p> 
+   <img src="https://i.imgur.com/xh2iwbu.jpeg"> 
+   <p>kyot mo talaga dito be</p> 
+   <img src="https://i.imgur.com/So2wHo4.jpeg"> 
+   <p>ano atake mo hoy</p> 
+   <img src="https://i.imgur.com/jvAHwRK.jpeg"> 
+   <p>sige</p> 
+   <img src="https://i.imgur.com/5ptoD80.jpeg"> 
+   <p>congrats nhakshit</p> 
+   <img src="https://i.imgur.com/DwFVhiL.jpeg"> 
+   <p>sino ka-partner mo r'yan</p> 
+   <img src="https://i.imgur.com/vKlFBnU.jpeg"> 
+   <p>sige(4321678)</p> 
+   <img src="https://i.imgur.com/x5wVXse.jpeg"> 
+   <p>HAHAHHAHAHAHHAHA sino kasama mo</p> 
+   <img src="https://i.imgur.com/2ZrHaiZ.jpeg"> 
+   <p>laki ng ngiti ah</p> 
+   <img src="https://i.imgur.com/9sZePjJ.jpeg"> 
+   <p>wews</p> 
+   <img src="https://i.imgur.com/P7R5g90.jpeg"> 
+   <p>ginawa ko 'to para incase na madedz ka may remebrance na 'ko</p> 
+   <img src="https://i.imgur.com/J1Lob0j.gif" class="gif-image"> 
+   <p>tanginamo oy kahalati ata ng gallery ko sinakop mo na!!!!</p> 
+  </div> 
+ 
+</body></html>
